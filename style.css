@@ -1,0 +1,81 @@
+:root {
+    --bg-color: hsl(217, 54%, 11%);
+    --card-color: hsl(216, 50%, 16%);
+    --focus-color: #fff;
+    --text-color: hsl(215, 51%, 70%);
+    --eth-color: hsl(178, 100%, 50%);;
+
+}
+
+body {
+    background-color: var(--bg-color);
+    font-family: "Outfit", sans-serif;
+    font-size: 18px;
+    text-align: left;
+}
+
+#Card {
+    padding: 25px;
+    background-color: var(--card-color);
+    border-radius: 15px;
+    max-width: 300px;
+    margin: 50px auto 0px;
+}
+
+#container {
+    display: flex;
+    color: var(--text-color);
+    justify-content: center;
+    align-items: center;  
+}
+
+.eth {
+    color: var(--eth-color);
+}
+
+.avatar { 
+    max-width: 12%;
+    margin-right: 15px;
+}
+
+.equilibrium-image {
+    margin: auto;
+    border-radius: 8px;
+    max-width: 100%;
+}
+
+.heading {
+    font-size: 22px;
+    color: var(--focus-color);
+}
+
+p {
+    line-height: 1.5;
+    font-weight: 300;
+}
+
+.CardInfo {
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 0;
+}
+
+hr {
+    margin-top: 25px;
+    border-color: hsla(215, 52%, 70%, 0.356);
+    border-bottom: none;
+    border-width: thin;
+}
+
+.name {
+    color: var(--focus-color);
+}
+
+.CardFooter {
+    margin-top: 25px;
+    display: flex;
+}
+
+.heading:hover {
+    color: ;
+}
